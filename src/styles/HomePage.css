@@ -1,0 +1,33 @@
+.homepage-container{
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    min-width: 364px;
+    min-height: 583px;
+}
+
+h3{
+    margin: 0;
+}
+
+.left{
+    width: 20%;
+    height: 100%;
+    min-width: 210px;
+}
+.right{
+    width: 80%;
+    height: 100%;
+    min-width: 364px;
+    float: left;
+}
+.right-header{
+    width: 100%;
+    height: 12%;
+}
+.right-displayoutlet{
+    width: 100%;
+    height: 88%;
+    background-color: white;
+}

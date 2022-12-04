@@ -1,0 +1,8 @@
+.formcomp-container{
+    height: 100%;
+    background-color: white;
+    overflow-y: auto;
+}
+h3{
+    margin: 0;
+}

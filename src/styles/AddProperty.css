@@ -1,0 +1,38 @@
+.addProperty-container{
+    height: 100%;
+    background-color: white
+}
+
+h3{
+    margin: 0;
+}
+
+.navbar-container{
+    height: 10%;
+    background-color: #E1F9F4;
+}
+
+.form-container{
+    height: 80%;
+    background-color: white
+}
+
+.cancelPrevSaveBtn-container{
+    height: 10%;
+    background-color: #E1F9F4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-center-container{
+    margin: auto;
+}
+
+.btn-center-container button{
+    width: 170px;
+    margin-right: 10px;
+    border-radius: 30px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    box-shadow: 0 3px 3px 3px  #cbc7c7;
+}

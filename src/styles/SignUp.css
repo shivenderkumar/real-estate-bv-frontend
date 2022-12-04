@@ -1,0 +1,133 @@
+p {
+    margin: 0;
+}
+
+.login-container {
+    height: 100vh;
+    width: 100%;
+    background-color: #E1F9F4;
+    display: flex;
+    align-items: center;
+}
+
+.login-form-container {
+    margin: auto;
+    width: 30%;
+    min-width: 364px;
+    height: 70%;
+    min-height: 583px;
+
+    border: 1px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.form-box {
+    height: 80%;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.switch-container {
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-upper{
+    height: 50%;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+
+}
+.form-upper-img{
+    margin: 0;
+    height: 80%;
+}
+.form-upper-img > h1{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.form-p-box {
+    height: 10%;
+    text-align: center;
+    margin: 0;
+}
+
+.form-ipuserid-box {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.form-ipuserid-box input {
+    width: 80%;
+    height: 40px;
+    padding: 0 10px;
+    font-size: 15px;
+    box-sizing: border-box;
+    border: 1px solid #E2E2E2;
+    border-radius: 5px;
+}
+
+.form-ippswd-box {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.form-ippswd-box input {
+    width: 80%;
+    padding: 0 10px;
+    height: 40px;
+    font-size: 15px;
+    box-sizing: border-box;
+    border: 1px solid #E2E2E2;
+    border-radius: 5px;
+}
+
+.form-ipcnfrmpswd-box {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.form-ipcnfrmpswd-box input {
+    width: 80%;
+    padding: 0 10px;
+    height: 40px;
+    font-size: 15px;
+    box-sizing: border-box;
+    border: 1px solid #E2E2E2;
+    border-radius: 5px;
+}
+
+.form-ipcnfrmpswd-img-box{
+    margin-bottom: 20px;
+    text-align: center;
+    height: 40px;
+}
+
+.form-signin-box {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-signin-box button {
+    height: 40px;
+    width: 80%;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: #4C57B6;
+    color: white;
+}
+
+.signup-link {
+    color: #352D66;
+}
+
+.form-upper-img > .sidebar-img-container {
+    margin: 0 auto;
+    width: 200px;
+}
+
+.form-upper-img > .sidebar-img-container > img{
+    width: 200px;
+    height: 200px;
+}

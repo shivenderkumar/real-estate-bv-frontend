@@ -1,0 +1,27 @@
+.InputComp-container{
+    margin: 10px 10px 0;
+    padding: 5px 10px;
+    width: 48%;
+    height: auto;
+    float: left;
+    box-sizing: border-box;
+    border: 1px solid #AAAAAA;
+    border-radius: 10px;
+    background-color: white;
+}
+.input-container{
+    width: 100%;
+    background-color: pink;
+}
+.lable-container > label{
+    color: #AAAAAA;
+}
+.input-container > input{
+    width: 100%;
+    color: gray;
+    border: 0;
+    border-bottom: 1px solid #AAAAAA;
+}
+.input-container > input:focus{
+    outline: none;
+}
