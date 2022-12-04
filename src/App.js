@@ -29,7 +29,6 @@ function App() {
 
   useEffect(()=>{
     let token = localStorage.getItem("MYJWT");
-    console.log("MYJWT after validation : ", token+" cuurent page:",page);
   },[page])
 
   return (
